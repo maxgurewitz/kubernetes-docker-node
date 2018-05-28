@@ -4,6 +4,7 @@
   "description": "Kubernetes docker learning exercise.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/maxgurewitz/kubernetes-docker-node/issues"
   },
-  "homepage": "https://github.com/maxgurewitz/kubernetes-docker-node#readme"
+  "homepage": "https://github.com/maxgurewitz/kubernetes-docker-node#readme",
+  "dependencies": {
+    "hapi": "^17.5.0"
+  }
 }
