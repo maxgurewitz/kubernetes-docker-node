@@ -1,0 +1,25 @@
+{
+  "name": "kubernetes-docker-node",
+  "version": "1.0.0",
+  "description": "Kubernetes docker learning exercise.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxgurewitz/kubernetes-docker-node.git"
+  },
+  "keywords": [
+    "kubernetes",
+    "docker",
+    "learning",
+    "exercise"
+  ],
+  "author": "Max Gurewitz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxgurewitz/kubernetes-docker-node/issues"
+  },
+  "homepage": "https://github.com/maxgurewitz/kubernetes-docker-node#readme"
+}
