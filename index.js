@@ -2,12 +2,20 @@ const Hapi = require('hapi');
 
 const server = Hapi.server({
   port: 3000,
-  host: 'localhost'
+  host: '0.0.0.0'
+});
+
+server.route({
+  method: 'GET',
+  path: '/',
+  handler: (request, h) => {
+    return 'Hello, world!';
+  }
 });
 
 const init = async () => {
   await server.start();
-  console.log(`Server running at: ${server.info.uri}`);
+  console.log(`Server running at: ${server.info.uri} starting at ${Date.now()}`);
 };
 
 process.on('unhandledRejection', (err) => {
