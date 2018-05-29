@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "docker": "npm run docker-build && npm run docker-run",
     "docker-build": "docker build -t kubernetes-docker-node .",
-    "docker": "docker run -p 3000:3000 kubernetes-docker-node",
+    "docker-run": "docker run -p 3000:3000 kubernetes-docker-node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
